@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#sketchArea {
+    width: 500px;
+    height:500px;
+    display: grid;
+    margin: 30px;
+    border: 10px solid grey;
+}
+
+.boxes {
+    background-color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.userSettings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+
+#white {
+    background-color: White;
+    color: black;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#random {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: black;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+#setSize {
+    background-color: White;
+    color: black;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}

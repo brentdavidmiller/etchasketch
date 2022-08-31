@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etch-A-Sketch</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="etchasketch.css">
+  <script defer src="etchasketch.js"></script>
+</head>
+
+<body>
+    <main>
+
+      <h1>Etch-A-Sketch!</h1>
+
+      <div class="board">
+        <div id ="sketchArea"></div>
+      </div>
+
+        <div class="buttons">
+          <button class="colors" id="white">White</button>
+          <button class="colors" id="black">Black</button>
+          <button class="colors" id="random">Random</button>
+        </div>
+
+        <div class="userSettings">
+          <input id="userInput" type="number" min="4" max="64" step="1" value="16" />
+          <button id="setSize">Set Size</button>
+          <div>Select value between 4 and 64</div>
+          <div id="error"><span></span></div>
+        </div>
+    </main>
+</body>
+</html>
